@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-color: lightcyan;
+}
+.navbir{
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 107px;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+}
+.navlist>li{
+    list-style-type: none;
+    padding: 15px;
+}
+.navlist>li>a{
+text-decoration: none;
+font-size: 25px;
+color: whitesmoke;
+}
+.navbir>img{
+border-color: lightblue;
+border-radius: 30px;
+padding-left: 8px;
+border-radius: 30px;
+}
+.gnav{
+    height: 105px;
+    width: 105px;
+}
+.ayo{
+margin-left: 30%;    
+}
+.ayo>img{
+    border-radius: 5px;
+}
+.gambayo{
+    width:60%; 
+    height:500px;
+}
+.produk{
+    text-align: center;
+    font-family:'Lucida Sans';
+    color: blueviolet;
+    font-size:xx-large;
+    padding-top: 50px;
+}
+.qurban>h1{
+    font-family:'Lucida Sans';
+    color: blueviolet;
+    font-size:xx-large;
+   padding-top: 70px;
+    text-align: center; 
+}
+.qurban>h2{
+    font-family:'Lucida Sans';
+    color: blueviolet;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.kambing{
+    border: 5px solid transparent; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 15px;
+    height: 200px;
+    position: relative;
+    right: 80px;  
+    text-align: center; 
+}
+.Domba{
+    border: 5px solid transparent; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    position: relative;
+    right: 50px;
+    text-align: center;
+}
+.Hewan{
+    position: relative;
+    left: 35%;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.Hewan>div{
+    padding: 15px;
+}
+button{
+    color: #fff;
+    border: 2px solid transparent;
+    width: 40%;
+    border-radius:8px ;
+    background-color: #0095ff;
+    margin-left: 60px; 
+}
+.tombol1{
+    position: relative;
+    top: 5px;
+}
+.tombol2{
+    position: relative;
+    bottom: 8px;
+}
+.qurban{
+    background-color: whitesmoke; 
+    height: 600px;
+    margin-left: 5% ;
+    width: 90%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.fotod{
+    width: 210px;
+    height: 155px;
+    position: relative;
+    bottom: 20px;
+}
+.tdalam{
+    position: relative;
+    bottom: 20px;
+    font-family: monospace;
+    color:orchid;
+}
+.Domba>p{
+    position: relative;
+    bottom: 15px;
+}
+.about{
+    background-color: whitesmoke; 
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10% ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-left: 3% ;
+    border-radius: 10px;
+}
+p>span{
+    font-size: xx-large;
+}
+.about>img{
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+.para{
+    font-size:larger;
+}
+.paragraf{
+    padding-top: 5%;
+}
+.about>p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+    background:rebeccapurple;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    font-size:0.8em;
+    color: whitesmoke;
+    }
+    a>img{
+        width: 200px;
+        height: 150px;
+    }
+    .ig{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    .gamten{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        right: 16.5px;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+   
+    @media (max-width:600px){
+        body{
+            width: 100%;
+        }
+        .navbir{
+            width: 100%;
+        }
+        .about{
+            flex-direction: column;
+        }
+        .Hewan{
+            flex-direction: column;
+            height: 10%;
+        }
+        .Domba{
+            right: 77px;
+            bottom: 35px;
+        }
+        .kambing{
+            bottom: 55px;
+        }
+        .qurban>h1{
+            padding-top: 10px;
+        }
+        .qurban>h2{
+            position: relative;
+            bottom: 30px;
+        }
+        .about{
+            padding-top:0px ;
+        }
+        .gnav{
+            width: 80px;
+            height: 80px;
+            position: relative;
+            top: 15px;
+        }
+        .navlist>li>a{
+            font-size:17px;
+        }
+        .gambayo{
+            width: 80%;
+            height: 225px;
+            position: relative;
+            right: 30px;
+            margin-top: 25px;
+        }
+        .gamten{
+            width: 300px;
+            height: 300px;
+            left: 10px;
+        }
+        .paragraf{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 30px;
+        }
+        .ig{
+            width: 90px;
+            height: 90px;
+        }
+        .fb{
+            width: 130px;
+            height: 100px;
+        }
+            .footer{
+        padding-left: 15px;
+        padding-right: 15px;
+            }
+    }
+   
+    
